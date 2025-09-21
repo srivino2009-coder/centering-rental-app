@@ -1,7 +1,7 @@
 services:
   - type: web
     name: centering-rental-app
-    env: docker
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
     plan: free
-    autoDeploy: true
-    region: oregon
