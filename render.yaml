@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: centering-rental-app
-    env: static
-    buildCommand: ""
-    staticPublishPath: .
-    plan: free
